@@ -2,7 +2,7 @@ import React from 'react'
 export default () => {
     return (
       <div>
-          I'm a lodable component!😎
+          I'm a loadable component!😎
       </div>
     )
   }

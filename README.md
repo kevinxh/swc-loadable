@@ -1,6 +1,6 @@
 # swc-loadable
 
-This is an experiment to try out [SWC](https://swc.rs/), Webpack and lodable component.
+This is an experiment to try out [SWC](https://swc.rs/), Webpack and loadable component.
 
 ```
 npm install
