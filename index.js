@@ -1,7 +1,19 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
+import loadable from '@loadable/component'
+
+const LodableComponent = loadable(() => import('./lodableComponent'))
+
+function App() {
+  return (
+    <div>
+      <h1>hello world!</h1>
+      <LodableComponent />
+    </div>
+  )
+}
 
 ReactDOM.render(
-    <h1>Hello World</h1>,
+  <App />,
   document.getElementById('root')
 )
